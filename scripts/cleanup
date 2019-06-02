@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-rm -rf tmp
-rm -rf output
+DIR=$(cd "$(dirname "$0")"; pwd -P)
+rm -rf $DIR/../output
